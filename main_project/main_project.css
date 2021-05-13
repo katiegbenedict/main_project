@@ -1,0 +1,2396 @@
+html,body {
+    margin: 0;
+}
+
+.container {
+    width: 123700px;
+    height: 100vh;
+    background: linear-gradient(to right,white 350px,#98B4D4 ,#C3447A,#BC243C,#7fcdcd,#E15D44,#53b0ae,#DECDBE,#9B2335,#6364a5,#EFC050,#45b5aa,#D65076,#DD4124,#009874,#AD5E99,#964F4C,#F7CACA,#93A9D1,#88B04B,#5F4B8B,#FA7268
+    ,#0F4C81,#939597,#F5DF4D);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+nav {
+    width: 60px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 15px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size:38px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    line-height: 100px;
+    background-color: rgba(255,255,255,.25);
+    border-radius: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.color_grid {
+    width: 688px;
+    height: 100vh;
+    background-image: url(main_project_images/pantone_grid.png);
+    background-size: 100%;
+}
+
+.title_box {
+    width: 567px;
+    height: 111px;
+    background-color: white;
+    position: absolute;
+    left: 64px;
+    top: 46%;
+}
+
+.pantones {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: -90px;
+    left: 22px;
+}
+
+.title_square {
+    width: 450px;
+    height: 450px;
+    border: 10px solid black;
+    position: absolute;
+    left: 804px;
+    top: 50%;
+    margin-top: -225px;
+}
+
+.colors {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 75px;
+    text-align: left;
+    position: absolute;
+    top: -75px;
+    left: 10px;
+}
+
+.of_the_year {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 75px;
+    text-align: right;
+    position: absolute;
+    top: 200px;
+    left: 245px;
+}
+
+.years {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 55px;
+    text-align: left;
+    position: absolute;
+    top: 400px;
+    left: 8px;
+}
+
+.intro_text_container {
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.intro_title {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    position: absolute;
+    left: 1400px;
+    top: 10px;
+}
+
+.intro_text {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    position: absolute;
+    left: 1400px;
+    top: 80px;
+}
+
+.intro_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    position: absolute;
+    left: 1400px;
+    top: 480px;
+}
+
+#year_2000 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 2150px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.cerulean {
+    font-family: Futura, sans-serif;
+    font-size: 250px;
+    position: absolute;
+    color: white;
+    left: 2240px;
+    top: 0;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.cerulean_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/ceruleanswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 3720px;
+    top: 0;
+}
+
+.cerulean_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 4235px;
+    top: -15px;
+}
+
+.cerulean_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 4600px;
+    top: 450px;
+}
+
+.cerulean_sky {
+    height: 98vh;
+    width: 755px;
+    background-image: url(main_project_images/cerulean_sky.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 5000px;
+    top: 0;
+}
+
+.cerulean_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 5790px;
+    top: -15px;
+}
+
+.transition_00_01 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 6200px;
+    top: -700px;
+    opacity: 4%;
+    z-index: 1;
+}
+
+.number_change_00_01 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 7400px;
+    top: -700px;
+    opacity: 4%;
+    z-index: 1;
+}
+
+#year_2001 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 8000px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.fuchsia_rose {
+    font-family: Futura, sans-serif;
+    font-size: 220px;
+    position: absolute;
+    color: white;
+    left: 7900px;
+    top: 30px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.fuchsia_rose_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/fuchsiaroseswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 9600px;
+    top: 0;
+}
+
+.fuchsia_rose_text_1{
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 10120px;
+    top: -20px;
+}
+
+.fuchsia_rose_image {
+    height: 98vh;
+    width: 755px;
+    background-image: url(main_project_images/fuchsia_rose.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 10600px;
+    top: 0px;
+}
+
+.fuchsia_rose_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 11400px;
+    top: 500px;
+}
+
+.transition_01_02 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 11750px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_01_02 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 12930px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2002 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 13350px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.true_red {
+    font-family: Futura, sans-serif;
+    font-size: 250px;
+    position: absolute;
+    color: white;
+    left: 13470px;
+    top: 0px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.true_red_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/trueredswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 14850px;
+    top: 0px;
+}
+
+.true_red_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 15380px;
+    top: 10px;
+}
+
+.true_red_image {
+    height: 98vh;
+    width: 755px;
+    background-image: url(main_project_images/firetruck.jpg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 15950px;
+    top: 0px;
+}
+
+.true_red_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 16750px;
+    top: 390px;
+}
+
+.transition_02_03 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 17120px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_02_03 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 18320px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2003 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 18760px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.aqua_sky {
+    font-family: Futura, sans-serif;
+    font-size: 250px;
+    position: absolute;
+    color: white;
+    left: 18805px;
+    top: 0px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.aqua_sky_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/aquaskyswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 20250px;
+    top: 0px;
+}
+
+.aqua_sky_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 20780px;
+    top: 490px;
+}
+
+.aqua_sky_image_1 {
+    height: 480px;
+    width: 600px;
+    background-image: url(main_project_images/aqua_sky.jpg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 21180px;
+    top: 228px;
+}
+
+.aqua_sky_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 21180px;
+    top: 50px;
+}
+
+.aqua_sky_image_2 {
+    height: 460px;
+    width: 460px;
+    background-image: url(main_project_images/aqua_sky_paint.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 21850px;
+    top: 0px;
+}
+
+.aqua_sky_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 21850px;
+    top: 450px;
+}
+
+.transition_03_04 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 22370px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_03_04 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 23570px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2004 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 23930px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.tigerlily {
+    font-family: Futura, sans-serif;
+    font-size: 250px;
+    position: absolute;
+    color: white;
+    left: 24070px;
+    top: 0px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.tigerlily_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/tigerlilyswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 25400px;
+    top: 0px;
+}
+
+.tigerlily_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 25920px;
+    top: -30px;
+}
+
+.tigerlily_image_1 {
+    height: 98vh;
+    width: 630px;
+    background-image: url(main_project_images/tigerlily.jpeg);
+    background-size: 120%;
+    border: solid 7px white;
+    position: absolute;
+    left: 26420px;
+    top: 0px;
+}
+
+.transition_04_05 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 27100px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_04_05 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 28300px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+#year_2005 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 28800px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.blue_turquoise {
+    font-family: Futura, sans-serif;
+    font-size: 200px;
+    position: absolute;
+    color: white;
+    left: 28680px;
+    top: 60px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.blue_turquoise_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/blueturquoiseswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 30400px;
+    top: 0px;
+}
+
+.blue_turquoise_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 30920px;
+    top: 385px;
+}
+
+.blue_turquoise_image {
+    height: 98vh;
+    width: 810px;
+    background-image: url(main_project_images/blue_turquoise.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 31400px;
+    top: 0px;
+}
+
+.transition_05_06 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 32250px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_05_06 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 33450px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2006 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 33900px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.sand_dollar {
+    font-family: Futura, sans-serif;
+    font-size: 200px;
+    position: absolute;
+    color: white;
+    left: 33910px;
+    top: 60px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.sand_dollar_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/sanddollarswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 35380px;
+    top: 0px;
+}
+
+.sand_dollar_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 35900px;
+    top: -15px;
+}
+
+.sand_dollar_image_1 {
+    width: 600px;
+    height: 314px;
+    background-image: url(main_project_images/sanddollar.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 36410px;
+    bottom: 0px;
+}
+
+.sand_dollar_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 35970px;
+    top: 440px;
+}
+
+.sand_dollar_image_2 {
+    height: 50vh;
+    width: 500px;
+    background-image: url(main_project_images/sanddollar_design.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 37200px;
+    top: 0px;
+}
+
+.sand_dollar_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 36800px;
+    top: -15px;
+}
+
+.transition_06_07 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 37770px;
+    top: -700px;
+    opacity: 3%;
+    z-index: 1;
+}
+
+.number_change_06_07 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 38970px;
+    top: -700px;
+    opacity: 3%;
+    z-index: 1;
+}
+
+.year_2007 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 39400px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.chili_pepper {
+    font-family: Futura, sans-serif;
+    font-size: 200px;
+    position: absolute;
+    color: white;
+    left: 39450px;
+    top: 60px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.chili_pepper_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/chilipepperswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 40950px;
+    top: 0px;
+}
+
+.chili_pepper_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 41490px;
+    top: 475px;
+}
+
+.chili_pepper_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 41880px;
+    top: -20px;
+}
+
+.chili_pepper_image_1 {
+    width: 900px;
+    height: 98vh;
+    background-image: url(main_project_images/chillipepper.jpeg);
+    background-size: 120%;
+    border: solid 7px white;
+    position: absolute;
+    left: 42290px;
+    top: 0px;
+}
+
+.transition_07_08 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 43250px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_07_08 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 44450px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2008 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 44850px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.blue_iris {
+    font-family: Futura, sans-serif;
+    font-size: 250px;
+    position: absolute;
+    color: white;
+    left: 45050px;
+    top: 0px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.blue_iris_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/blueirisswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 46350px;
+    top: 0px;
+}
+
+.blue_iris_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 46880px;
+    top: -15px;
+}
+
+.blue_iris_image_1 {
+    width: 650px;
+    height: 98vh;
+    background-image: url(main_project_images/blue_iris.jpeg);
+    background-size: 110%;
+    border: solid 7px white;
+    position: absolute;
+    left: 47450px;
+    top: 0px;
+}
+
+.blue_iris_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 48140px;
+    top: 340px;
+}
+
+.transition_08_09 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 48500px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_08_09 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 49700px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2009 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 50100px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.mimosa {
+    font-family: Futura, sans-serif;
+    font-size: 220px;
+    position: absolute;
+    color: white;
+    left: 50320px;
+    top: 20px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.mimosa_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/mimosaswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 51600px;
+    top: 0px;
+}
+
+.mimosa_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 52120px;
+    top: -20px;
+}
+
+.mimosa_image_1 {
+    width: 630px;
+    height: 50vh;
+    background-image: url(main_project_images/mimosa.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 52500px;
+    top: 350px;
+}
+
+.mimosa_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 52500px;
+    top: 170px;
+}
+
+.mimosa_image_2 {
+    width: 605px;
+    height: 405px;
+    background-image: url(main_project_images/mimosa_flower.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 53180px;
+    top: 0px;
+}
+
+.mimosa_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 53180px;
+    top: 400px;
+}
+
+.transition_09_10 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 53800px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_09_10 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 54600px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+#year_2010 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 55380px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.turquoise {
+    font-family: Futura, sans-serif;
+    font-size: 200px;
+    position: absolute;
+    color: white;
+    left: 55480px;
+    top: 60px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.turquoise_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/turquoiseswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 56800px;
+    top: 0px;
+}
+
+.turquoise_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 57320px;
+    top: 300px;
+}
+
+.turquoise_image_1 {
+    width: 633px;
+    height: 50vh;
+    background-image: url(main_project_images/turquoisewater.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 57840px;
+    top: 347px;
+}
+
+.turquoise_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 57840px;
+    top: 75px;
+}
+
+.turquoise_image_2 {
+    width: 526px;
+    height: 40vh;
+    background-image: url(main_project_images/turquoise-interiordesign.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 58550px;
+    top: 0px;
+}
+
+.turquoise_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 58550px;
+    top: 270px;
+}
+
+.transition_10_11 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 59100px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_10_11 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 60190px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2011 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 60700px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.honeysuckle {
+    font-family: Futura, sans-serif;
+    font-size: 200px;
+    position: absolute;
+    color: white;
+    left: 60600px;
+    top: 60px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.honeysuckle_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/honeysuckleswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 62150px;
+    top: 0px;
+}
+
+.honeysuckle_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 62665px;
+    top: -20px;
+}
+
+.honeysuckle_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 63270px;
+    top: 250px;
+    text-align: right;
+}
+
+.honeysuckle_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 63690px;
+    top: 610px;
+    text-align: right;
+}
+
+.honeysuckle_image_1 {
+    width: 850px;
+    height: 98vh;
+    background-image: url(main_project_images/honeysuckle.jpeg);
+    background-size: 130%;
+    border: solid 7px white;
+    position: absolute;
+    left: 63910px;
+    top: 0px;
+}
+
+.transition_11_12 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 64850px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_11_12 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 65910px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2012 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 66550px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.tangerine_tango {
+    font-family: Futura, sans-serif;
+    font-size: 180px;
+    position: absolute;
+    color: white;
+    left: 66350px;
+    top: 100px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.tangerine_tango_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/tangerinetangoswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 68150px;
+    top: 0px;
+}
+
+.tangerine_tango_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 68670px;
+    top: -20px;
+}
+
+.tangerine_tango_image_1 {
+    width: 606px;
+    height: 55vh;
+    background-image: url(main_project_images/tangerine.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 69160px;
+    top: 0px;
+}
+
+.tangerine_tango_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 69160px;
+    top: 390px;
+}
+
+.tangerine_tango_text_2b {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 69160px;
+    top: 570px;
+}
+
+.tangerine_tango_image_2 {
+    width: 600px;
+    height: 50vh;
+    background-image: url(main_project_images/sunset.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 69850px;
+    top: 347px;
+}
+
+.tangerine_tango_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 69850px;
+    top: -20px;
+}
+
+.tangerine_tango_text_3b {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 70240px;
+    top: 290px;
+}
+
+.transition_12_13 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 70510px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_12_13 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 71570px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2013 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 72000px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.emerald {
+    font-family: Futura, sans-serif;
+    font-size: 250px;
+    position: absolute;
+    color: white;
+    left: 72100px;
+    top: -20px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.emerald_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/emeraldswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 73400px;
+    top: 0px;
+}
+
+.emerald_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 73920px;
+    top: 480px;
+}
+
+.emerald_image_1 {
+    width: 350px;
+    height: 60vh;
+    background-image: url(main_project_images/emeraldgemstone.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 74050px;
+    top: 0px;
+}
+
+.emerald_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 74440px;
+    top: -20px;
+}
+
+.emerald_image_2 {
+    width: 380px;
+    height: 98vh;
+    background-image: url(main_project_images/emeraldnature.jpeg);
+    background-size: 120%;
+    border: solid 7px white;
+    position: absolute;
+    left: 74850px;
+    top: 0px;
+}
+
+.emerald_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 75265px;
+    top: 440px;
+}
+
+.emerald_image_3 {
+    width: 380px;
+    height: 98vh;
+    background-image: url(main_project_images/emeraldnature2.jpeg);
+    background-size: 120%;
+    border: solid 7px white;
+    position: absolute;
+    left: 75700px;
+    top: 0px;
+}
+
+.transition_13_14 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 76100px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_13_14 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 77160px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2014 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 77700px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.radiant_orchid {
+    font-family: Futura, sans-serif;
+    font-size: 180px;
+    position: absolute;
+    color: white;
+    left: 77610px;
+    top: 100px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.radiant_orchid_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/radiantorchidswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 79250px;
+    top: 0px;
+}
+
+.radiant_orchid_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 79780px;
+    top: -20px;
+}
+
+.radiant_orchid_image_1 {
+    width: 660px;
+    height: 60vh;
+    background-image: url(main_project_images/orchid_flower.jpeg);
+    background-size: 110%;
+    border: solid 7px white;
+    position: absolute;
+    left: 80100px;
+    top: 275px;
+}
+
+.radiant_orchid_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 80800px;
+    top: 435px;
+}
+
+.radiant_orchid_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 81000px;
+    top: -20px;
+}
+
+.radiant_orchid_image_2 {
+    width: 450px;
+    height: 98vh;
+    background-image: url(main_project_images/orchidrunway.jpeg);
+    background-size: 110%;
+    border: solid 7px white;
+    position: absolute;
+    left: 81500px;
+    top: 0px;
+}
+
+.transition_14_15 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 82000px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_14_15 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 83060px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+#year_2015 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 83500px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.marsala {
+    font-family: Futura, sans-serif;
+    font-size: 250px;
+    position: absolute;
+    color: white;
+    left: 83570px;
+    top: -20px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.marsala_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/marsalaswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 84900px;
+    top: 0px;
+}
+
+.marsala_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 85430px;
+    top: 430px;
+}
+
+.marsala_image_1 {
+    width: 570px;
+    height: 98vh;
+    background-image: url(main_project_images/marsalawine.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 85970px;
+    top: 0px;
+}
+
+.marsala_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 86580px;
+    top: -20px;
+}
+
+.marsala_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 86750px;
+    top: 520px;
+}
+
+.marsala_image_2 {
+    width: 400px;
+    height: 50vh;
+    background-image: url(main_project_images/marsala_lipstick.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 87210px;
+    top: 347px;
+}
+
+.marsala_image_3 {
+    width: 366px;
+    height: 48vh;
+    background-image: url(main_project_images/marsala_nailpolish.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 87410px;
+    top: 0px;
+}
+
+.transition_15_16 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 87800px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_15_16 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 88930px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2016 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 89400px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.rose_quartz_serenity {
+    font-family: Futura, sans-serif;
+    font-size: 180px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 89400px;
+    top: 0px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.rose_quartz_swatch {
+    width: 390px;
+    height: 80vh;
+    background-image: url(main_project_images/rosequartswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 90850px;
+    top: 0px;
+}
+
+.serenity_swatch {
+    width: 390px;
+    height: 80vh;
+    background-image: url(main_project_images/serenityswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 91150px;
+    top: 130px;
+}
+
+.rose_quartz_serenity_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 91580px;
+    top: 480px;
+}
+
+.rose_quartz_serenity_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 91900px;
+    top: -20px;
+}
+
+.rose_quartz_serenity_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 92215px;
+    top: 425px;
+    text-align: right;
+}
+
+.rose_quartz_serenity_image_1 {
+    width: 700px;
+    height: 98vh;
+    background-image: url(main_project_images/rosequartz_serenity.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 92400px;
+    top: 0px;
+}
+
+.rose_quartz_serenity_text_4 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 93145px;
+    top: 440px;
+}
+
+.transition_16_17 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 93700px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_16_17 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 94760px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2017 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 95200px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.greenery {
+    font-family: Futura, sans-serif;
+    font-size: 250px;
+    position: absolute;
+    color: white;
+    left: 95220px;
+    top: -20px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.greenery_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/greeneryswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 96650px;
+    top: 0px;
+}
+
+.greenery_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 97170px;
+    top: 10px;
+}
+
+.greenery_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 97430px;
+    top: 400px;
+}
+
+.greenery_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 97830px;
+    top: 660px;
+    text-align: right;
+}
+
+.greenery_image_1 {
+    width: 1150px;
+    height: 98vh;
+    background-image: url(main_project_images/greenery.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 98000px;
+    top: 0px;
+}
+
+.greenery_text_4 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 99180px;
+    top: -20px;
+}
+
+.transition_17_18 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 99680px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_17_18 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 100740px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2018 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 101200px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.ultra_violet {
+    font-family: Futura, sans-serif;
+    font-size: 200px;
+    position: absolute;
+    color: white;
+    left: 101200px;
+    top: 60px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.ultra_violet_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/ultravioletswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 102650px;
+    top: 0px;
+}
+
+.ultra_violet_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 103180px;
+    top: 570px;
+}
+
+.ultra_violet_image_1 {
+    width: 1000px;
+    height: 60vh;
+    background-image: url(main_project_images/ultraviolet.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 103750px;
+    top: 275px;
+}
+
+.ultra_violet_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 103750px;
+    top: 0px;
+}
+
+.ultra_violet_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 104280px;
+    top: 220px;
+}
+
+.ultra_violet_text_4 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 104850px;
+    top: 480px;
+}
+
+.ultra_violet_image_2 {
+    width: 630px;
+    height: 98vh;
+    background-image: url(main_project_images/ultravioletprince.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 105340px;
+    top: 0px;
+}
+
+.transition_18_19 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 106020px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_18_19 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 107070px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2019 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 107550px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.living_coral {
+    font-family: Futura, sans-serif;
+    font-size: 200px;
+    position: absolute;
+    color: white;
+    left: 107510px;
+    top: 60px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.living_coral_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/livingcoralswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 109000px;
+    top: 0px;
+}
+
+.living_coral_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 109520px;
+    top: -15px;
+}
+
+.living_coral_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 109520px;
+    top: 330px;
+}
+
+.living_coral_image_1 {
+    width: 1100px;
+    height: 98vh;
+    background-image: url(main_project_images/livingcoral.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 110000px;
+    top: 0px;
+}
+
+.living_coral_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 111140px;
+    top: 340px;
+}
+
+.transition_19_20 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 111530px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_19_20 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 112290px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+#year_2020 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 113100px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.classic_blue {
+    font-family: Futura, sans-serif;
+    font-size: 200px;
+    position: absolute;
+    color: white;
+    left: 113150px;
+    top: 60px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.classic_blue_swatch {
+    width: 486px;
+    height: 98vh;
+    background-image: url(main_project_images/classicblueswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 114600px;
+    top: 0px;
+}
+
+.classic_blue_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 115130px;
+    top: 480px;
+}
+
+.classic_blue_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 115400px;
+    top: 0px;
+}
+
+.classic_blue_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 115760px;
+    top: 405px;
+}
+
+.classic_blue_image_1 {
+    width: 1100px;
+    height: 98vh;
+    background-image: url(main_project_images/classicblue.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 115950px;
+    top: 0px;
+}
+
+.transition_20_21 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 117100px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.number_change_20_21 {
+    font-family: Futura, sans-serif;
+    font-size: 650px;
+    color: white;
+    position: absolute;
+    left: 118300px;
+    top: -700px;
+    opacity: 5%;
+    z-index: 1;
+}
+
+.year_2021 {
+    font-family: Futura, sans-serif;
+    font-size: 589px;
+    color: white;
+    position: absolute;
+    left: 118800px;
+    top: -600px;
+    opacity: 15%;
+    z-index: 1;
+}
+
+.gray_illuminating {
+    font-family: Futura, sans-serif;
+    font-size: 170px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 118755px;
+    top: 0px;
+    opacity: 35%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.ultimate_gray_swatch {
+    width: 390px;
+    height: 80vh;
+    background-image: url(main_project_images/ultimategrayswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 120200px;
+    top: 0px;
+}
+
+.illuminating_swatch {
+    width: 390px;
+    height: 80vh;
+    background-image: url(main_project_images/illuminatingswatch.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 120500px;
+    top: 130px;
+}
+
+.gray_illuminating_text_1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 120940px;
+    top: 480px;
+}
+
+.gray_illuminating_image_1 {
+    width: 900px;
+    height: 70vh;
+    background-image: url(main_project_images/illuminating.png);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 121500px;
+    top: 0px;
+}
+
+.gray_illuminating_text_2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 122445px;
+    top: -20px;
+}
+
+.gray_illuminating_text_3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 122445px;
+    top: 425px;
+}
+
+.gray_illuminating_image_2 {
+    width: 600px;
+    height: 98vh;
+    background-image: url(main_project_images/grayilluminating.jpeg);
+    background-size: 100%;
+    border: solid 7px white;
+    position: absolute;
+    left: 123000px;
+    top: 0px;
+}
